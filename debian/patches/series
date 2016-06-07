@@ -19,3 +19,7 @@ CVE-2015-5260_CVE-2015-5261/0016-Make-sure-we-can-read-QXLPathSeg-structures.pat
 CVE-2015-5260_CVE-2015-5261/0017-Avoid-race-condition-copying-segments-in-red_get_pat.patch
 CVE-2015-5260_CVE-2015-5261/0018-Prevent-data_size-to-be-set-independently-from-data.patch
 CVE-2015-5260_CVE-2015-5261/0019-Prevent-leak-if-size-from-red_get_data_chunks-don-t-.patch
+CVE-2016-0749/0001-smartcard-add-a-ref-to-item-before-adding-to-pipe.patch
+CVE-2016-0749/0002-smartcard-allocate-msg-with-the-expected-size.patch
+CVE-2016-2150/0001-create-a-function-to-validate-surface-parameters.patch
+CVE-2016-2150/0002-improve-primary-surface-parameter-checks.patch

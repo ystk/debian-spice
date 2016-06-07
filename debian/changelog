@@ -1,3 +1,12 @@
+spice (0.12.5-1+deb8u3) jessie-security; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * CVE-2016-0749: heap-based buffer overflow in smartcard interaction
+  * CVE-2016-2150: host memory access from guest using crafted primary surface
+    parameters
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 29 May 2016 08:25:05 +0200
+
 spice (0.12.5-1+deb8u2) jessie-security; urgency=high
 
   * Non-maintainer upload by the Security Team.
