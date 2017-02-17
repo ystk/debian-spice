@@ -1,3 +1,13 @@
+spice (0.12.5-1+deb8u4) jessie-security; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * Prevent possible DoS attempts during protocol handshake (CVE-2016-9578)
+  * Prevent integer overflows in capability checks (CVE-2016-9578)
+  * main-channel: Prevent overflow reading messages from client
+    (CVE-2016-9577)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 15 Feb 2017 20:46:43 +0100
+
 spice (0.12.5-1+deb8u3) jessie-security; urgency=high
 
   * Non-maintainer upload by the Security Team.
