@@ -26,3 +26,6 @@ CVE-2016-2150/0002-improve-primary-surface-parameter-checks.patch
 CVE-2016-9578-Prevent-possible-DoS-attempts-during-protocol-handsh.patch
 CVE-2016-9578-Prevent-integer-overflows-in-capability-checks.patch
 CVE-2016-9577-main-channel-Prevent-overflow-reading-messages-from-.patch
+CVE-2017-7506-1.patch
+CVE-2017-7506-2.patch
+CVE-2017-7506-3.patch
