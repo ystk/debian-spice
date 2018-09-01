@@ -1,3 +1,22 @@
+spice (0.12.5-1+deb8u6) jessie-security; urgency=medium
+
+  * Non-maintainer upload by the LTS Team.
+  * CVE-2018-10873:
+    A vulnerability was discovered in SPICE before version 0.14.1 where
+    the generated code used for demarshalling messages lacked sufficient
+    bounds checks. A malicious client or server, after authentication,
+    could send specially crafted messages to its peer which would result
+    in a crash or, potentially, other impacts.
+    .
+    Fix: Bail out with an error if the pointer to the start of some
+    message data is strictly greater than the pointer to the end of the 
+    message data.
+    .
+    See review comments in debian/patches/CVE-2018-10873.patch about
+    potential weaknesses of this fix.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 31 Aug 2018 20:44:48 +0200
+
 spice (0.12.5-1+deb8u5) jessie-security; urgency=high
 
   * Non-maintainer upload by the Security Team.

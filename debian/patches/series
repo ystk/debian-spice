@@ -29,3 +29,4 @@ CVE-2016-9577-main-channel-Prevent-overflow-reading-messages-from-.patch
 CVE-2017-7506-1.patch
 CVE-2017-7506-2.patch
 CVE-2017-7506-3.patch
+CVE-2018-10873.patch
