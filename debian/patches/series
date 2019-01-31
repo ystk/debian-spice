@@ -30,3 +30,4 @@ CVE-2017-7506-1.patch
 CVE-2017-7506-2.patch
 CVE-2017-7506-3.patch
 CVE-2018-10873.patch
+memslot-Fix-off-by-one-error-in-group-slot-boundary-.patch
