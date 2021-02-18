@@ -1,3 +1,11 @@
+spice (0.12.5-1+deb8u8) jessie-security; urgency=high
+
+  * Non-maintainer upload by the ELTS Team.
+  * Add patch to fix multiple buffer overflow vulnerabilities.
+    (Fixes: CVE-2020-14355) (Closes: #971750)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Mon, 12 Oct 2020 02:27:53 +0530
+
 spice (0.12.5-1+deb8u7) jessie-security; urgency=medium
 
   * Non-maintainer upload by the LTS Team.
